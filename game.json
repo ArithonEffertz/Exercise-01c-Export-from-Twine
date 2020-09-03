@@ -1,0 +1,99 @@
+{
+  "passages": [
+    {
+      "text": "You wake up to find yourself in a large maze of thorny hedges and you have no idea how you got there. You're in the middle of the road.\n\n[[Go straight->Forward]]\n[[Go backwards->Backwards]]",
+      "links": [
+        {
+          "name": "Go straight",
+          "link": "Forward",
+          "pid": "2"
+        },
+        {
+          "name": "Go backwards",
+          "link": "Backwards",
+          "pid": "3"
+        }
+      ],
+      "name": "The Hedge",
+      "pid": "1",
+      "position": {
+        "x": "404",
+        "y": "170.5"
+      }
+    },
+    {
+      "text": "The sky is dark as you trek on ahead. There's a fork in the path.\n\n[[Left->Left]]\n[[Right->Right]]",
+      "links": [
+        {
+          "name": "Left",
+          "link": "Left",
+          "pid": "4"
+        },
+        {
+          "name": "Right",
+          "link": "Right",
+          "pid": "5"
+        }
+      ],
+      "name": "Forward",
+      "pid": "2",
+      "position": {
+        "x": "329",
+        "y": "320.5"
+      }
+    },
+    {
+      "text": "The hedges start to open up to a wide, open, circular space. You see an exit at the other end of the room.\n\n[[Go back->The Hedge]] \n[[Go forward->Through the Room]]",
+      "links": [
+        {
+          "name": "Go back",
+          "link": "The Hedge",
+          "pid": "1"
+        },
+        {
+          "name": "Go forward",
+          "link": "Through the Room",
+          "pid": "6"
+        }
+      ],
+      "name": "Backwards",
+      "pid": "3",
+      "position": {
+        "x": "479",
+        "y": "320.5"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Left",
+      "pid": "4",
+      "position": {
+        "x": "254",
+        "y": "470.5"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Right",
+      "pid": "5",
+      "position": {
+        "x": "404",
+        "y": "470.5"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Through the Room",
+      "pid": "6",
+      "position": {
+        "x": "524",
+        "y": "470.5"
+      }
+    }
+  ],
+  "name": "Adventure 2",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "7264134E-4D69-4742-BCBB-E08FB184E540"
+}
